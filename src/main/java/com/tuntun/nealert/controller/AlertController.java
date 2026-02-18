@@ -1,8 +1,6 @@
 package com.tuntun.nealert.controller;
-
 import com.tuntun.nealert.model.Alert;
 import com.tuntun.nealert.service.AlertService;
-
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
@@ -22,6 +20,8 @@ import java.util.Map;
     "https://destinationalert.live",
     "https://www.destinationalert.live"
 })
+
+
 public class AlertController {
 
   private final AlertService alertService;
