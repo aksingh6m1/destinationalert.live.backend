@@ -15,7 +15,9 @@ import java.util.Map;
 @CrossOrigin(origins = {
         "http://localhost:3000",
         "https://destinationalert.live",
-        "https://www.destinationalert.live"
+        "https://www.destinationalert.live",
+        "exp://192.168.1.5:19000",
+        "http://192.168.1.5:19000"
 })
 public class AlertController {
 
